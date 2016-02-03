@@ -26,6 +26,7 @@ php artisan generate:key
 ```
 
 ### Step 5: Migrate the database
+Before migarating you will need to create the database first.
 ```
 php artisan migrate
 ```
