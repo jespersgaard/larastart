@@ -1,5 +1,5 @@
 <?php
-
+ma
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
@@ -16,5 +16,6 @@ Route::group(['middleware' => 'web'], function () {
 
     // Testing purposes
     Route::get('test', function (){
+
     });
 });
