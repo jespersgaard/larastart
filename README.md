@@ -1,4 +1,5 @@
 # Larastart
+[![Laravel](https://img.shields.io/badge/Laravel-~5.0-orange.svg?style=flat-square)](http://laravel.com) [![Source](http://img.shields.io/badge/source-miiikkeyyyy/larastart-blue.svg?style=flat-square)](https://github.com/miiikkeyyyy/larastart)
 
 ## About
 I created Larastart as I would often download many of the same packages at the beginning of every project.
