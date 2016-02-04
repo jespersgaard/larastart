@@ -161,6 +161,8 @@ return [
          */
         Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+
+        GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
     ],
 
     /*
