@@ -165,6 +165,7 @@ return [
         Barryvdh\DomPDF\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Bestmomo\NiceArtisan\NiceArtisanServiceProvider::class,
+        Chumper\Zipper\ZipperServiceProvider::class
     ],
 
     /*
@@ -217,6 +218,7 @@ return [
         'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
+        'Zipper' => Chumper\Zipper\Zipper::class
     ],
 
 ];

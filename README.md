@@ -6,9 +6,9 @@ I would always take too much time setting up a basic template structure, downloa
 After a while it got a bit tedious so I decided to create a little package that'll download and install everything to my liking, all out of the box.
 
 ## Features
--  reCaptcha (no captcha recaptcha always returns error, but old recaptcha still works)
 - Authentication scaffolding
 - Migrations for users, forgot passwords and sessions
+-  reCaptcha on register & forgot password
 - Static Page controller (with tutorial for those that don't have much experience)
 - User Interface updates jQuery, Bootstrap, Font Awesome
 
@@ -19,6 +19,7 @@ After a while it got a bit tedious so I decided to create a little package that'
 - graham-campbell/exceptions
 - greggilbert/recaptcha
 - bestmomo/nice-artisan
+- chumper/zipper
 
 ## Installation
 Coming soon...

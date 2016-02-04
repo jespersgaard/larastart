@@ -1,7 +1,5 @@
 <?php
 
-use Barryvdh\DomPDF\PDF;
-
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
