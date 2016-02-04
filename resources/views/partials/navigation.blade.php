@@ -24,6 +24,15 @@
                 <li @if(Request::is('/') || Request::is('home')) class="active" @endif><a
                             href="{{ url('home') }}">Home</a></li>
                 <li @if(Request::is('about')) class="active" @endif><a href="{{ url('about') }}">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        How To <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li @if(Request::is('how-to/create-a-static-page')) class="active" @endif><a href="{{ url('how-to/create-a-static-page') }}"><i class="fa fa-pagelines"></i> Create a Page</a></li>
+                    </ul>
+                </li>
             </ul>
 
             <!-- Right Side Of Navbar -->

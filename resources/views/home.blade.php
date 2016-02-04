@@ -11,13 +11,6 @@
                     Welcome to my website, powered by Laravel 5.2!
                 </div>
             </div>
-
-            <div class="panel panel-default">
-                <div class="panel-heading">How To Guide:</div>
-                <ul class="nav">
-                    <li><a href="{!! url('/how-to/add-a-static-page') !!}">Create a Static Page.</a></li>
-                </ul>
-            </div>
         </div>
     </div>
 </div>
