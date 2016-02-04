@@ -13,12 +13,17 @@
     <!-- /Fonts -->
 
     <!-- Stylesheets -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     @yield('external-stylesheets')
     @yield('inline-stylesheets')
     <!-- /Stylesheets -->
 </head>
 <body id="app-layout">
+    <!-- Back-to-Top -->
+    <a href="#top" id="top-button" title="Top"><i class="fa fa-arrow-up"></i></a>
+    <!-- /Back-to-Top -->
+
     <!-- Navigation -->
     @include('partials.navigation')
     <!-- /Navigation -->
@@ -30,6 +35,7 @@
     <!-- JavaScripts -->
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     @yield('external-javascript')
     @yield('inline-javascript')
     <!-- /JavaScripts -->
