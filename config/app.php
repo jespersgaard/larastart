@@ -160,6 +160,7 @@ return [
          * Added by Larastart
          */
         Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     /*
@@ -210,6 +211,7 @@ return [
          * Added by Larastart
          */
         'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];
