@@ -18,11 +18,11 @@ class PagesController extends Controller
     }
 
     /**
-     * Shows the user a static tutorial page.
+     * Shows the user a static how to: add a page.
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function tutorial()
+    public function addPage()
     {
         return view('pages.tutorial');
     }
