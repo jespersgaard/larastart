@@ -22,6 +22,7 @@ After a while it got a bit tedious so I decided to create a little package that'
 - chumper/zipper
 - graham-campbell/markdown
 - intervention/image
+- laracasts/generators
 
 ## Installation
 Coming soon...
