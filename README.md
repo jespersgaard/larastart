@@ -20,6 +20,7 @@ After a while it got a bit tedious so I decided to create a little package that'
 - greggilbert/recaptcha
 - bestmomo/nice-artisan
 - chumper/zipper
+- graham-campbell/markdown
 
 ## Installation
 Coming soon...
