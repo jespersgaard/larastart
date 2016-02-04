@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5467e7fe7719c04434e8f6839797327a",
-    "content-hash": "2e1ff17bbc1487a495dadaf8ae8f1e8b",
+    "hash": "4ddafb60aa3cd63f3e5468916c4e0db8",
+    "content-hash": "1e9c4bed569cf5bbf5f2a9f67a6790be",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -171,6 +171,45 @@
                 "sublime"
             ],
             "time": "2015-12-21 19:48:06"
+        },
+        {
+            "name": "bestmomo/nice-artisan",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bestmomo/nice-artisan.git",
+                "reference": "182ab0fef6e1ec5a00728cf421261665e719cc8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bestmomo/nice-artisan/zipball/182ab0fef6e1ec5a00728cf421261665e719cc8a",
+                "reference": "182ab0fef6e1ec5a00728cf421261665e719cc8a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bestmomo\\NiceArtisan\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bestmomo",
+                    "email": "grandheretique@free.fr",
+                    "homepage": "http://laravel.sillo.org"
+                }
+            ],
+            "description": "Web interface for Laravel Artisan",
+            "homepage": "http://github.com/bestmomo/nice-artisan",
+            "time": "2015-12-23 22:36:06"
         },
         {
             "name": "classpreloader/classpreloader",

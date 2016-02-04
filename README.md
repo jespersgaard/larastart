@@ -18,6 +18,7 @@ After a while it got a bit tedious so I decided to create a little package that'
 - barryvdh/laravel-ide-helper
 - graham-campbell/exceptions
 - greggilbert/recaptcha
+- bestmomo/nice-artisan
 
 ## Installation
 Coming soon...

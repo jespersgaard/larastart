@@ -164,6 +164,7 @@ return [
         GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Bestmomo\NiceArtisan\NiceArtisanServiceProvider::class,
     ],
 
     /*
