@@ -12,4 +12,5 @@ Route::group(['middleware' => 'web'], function () {
 
     // Pages Controller
     Route::get('/about', 'PagesController@about');
+    Route::get('/tutorial', 'PagesController@tutorial');
 });

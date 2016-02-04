@@ -5,12 +5,9 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
-                <div class="panel-heading">About Us</div>
+                <div class="panel-heading">How To: Add a Page</div>
 
                 <div class="panel-body">
-                    This is a static about us page.<br />
-                    <hr />
-
                     <h4>What exactly are we doing?</h4>
                     <p>What we are going to do is set up a page called &quot;<em>Example</em>&quot;</p>
                     <p>We will need to add the route, create the controller and finally create a view.</p>

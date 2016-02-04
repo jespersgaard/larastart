@@ -16,4 +16,14 @@ class PagesController extends Controller
     {
         return view('pages.about');
     }
+
+    /**
+     * Shows the user a static tutorial page.
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function tutorial()
+    {
+        return view('pages.tutorial');
+    }
 }
