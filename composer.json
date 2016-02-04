@@ -14,7 +14,8 @@
         "barryvdh/laravel-ide-helper": "^2.1",
         "bestmomo/nice-artisan": "^0.4.1",
         "chumper/zipper": "0.6.x",
-        "graham-campbell/markdown": "^6.0"
+        "graham-campbell/markdown": "^6.0",
+        "intervention/image": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

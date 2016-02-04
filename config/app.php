@@ -167,7 +167,7 @@ return [
         Bestmomo\NiceArtisan\NiceArtisanServiceProvider::class,
         Chumper\Zipper\ZipperServiceProvider::class,
         GrahamCampbell\Markdown\MarkdownServiceProvider::class,
-
+        Intervention\Image\ImageServiceProvider::class
     ],
 
     /*
@@ -222,6 +222,7 @@ return [
         'PDF' => Barryvdh\DomPDF\Facade::class,
         'Zipper' => Chumper\Zipper\Zipper::class,
         'Markdown' => GrahamCampbell\Markdown\Facades\Markdown::class,
+        'Image' => Intervention\Image\Facades\Image::class,
     ],
 
 ];

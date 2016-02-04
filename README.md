@@ -21,6 +21,7 @@ After a while it got a bit tedious so I decided to create a little package that'
 - bestmomo/nice-artisan
 - chumper/zipper
 - graham-campbell/markdown
+- intervention/image
 
 ## Installation
 Coming soon...
