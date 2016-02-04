@@ -10,7 +10,8 @@
         "greggilbert/recaptcha": "dev-master",
         "barryvdh/laravel-debugbar": "^2.1",
         "graham-campbell/exceptions": "^8.3",
-        "barryvdh/laravel-dompdf": "0.6.*"
+        "barryvdh/laravel-dompdf": "0.6.*",
+        "barryvdh/laravel-ide-helper": "^2.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

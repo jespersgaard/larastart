@@ -15,6 +15,7 @@ After a while it got a bit tedious so I decided to create a little package that'
 ## Packages
 - barryvdh/laravel-debugbar
 - barryvdh/laravel-dompdf
+- barryvdh/laravel-ide-helper
 - graham-campbell/exceptions
 - greggilbert/recaptcha
 
