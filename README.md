@@ -25,6 +25,7 @@ After a while it got a bit tedious so I decided to create a little package that'
 - laracasts/generators
 - laravelcollective/html
 - maatwebsite/excel
+- yangqi/Htmldom
 
 ## Installation
 Coming soon...

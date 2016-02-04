@@ -1,5 +1,5 @@
 <?php
-ma
+
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
