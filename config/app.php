@@ -161,8 +161,8 @@ return [
          */
         Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
-
         GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
+        Barryvdh\DomPDF\ServiceProvider::class,
     ],
 
     /*
@@ -214,6 +214,7 @@ return [
          */
         'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'PDF' => Barryvdh\DomPDF\Facade::class,
     ],
 
 ];

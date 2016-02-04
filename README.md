@@ -7,14 +7,16 @@ After a while it got a bit tedious so I decided to create a little package that'
 
 ## Features
 -  reCaptcha (no captcha recaptcha always returns error, but old recaptcha still works)
-- GrahamCampbell/ExceptionHandler
-- filp/Whoops
 - Authentication scaffolding
 - Migrations for users, forgot passwords and sessions
 - Static Page controller (with tutorial for those that don't have much experience)
-- jQuery
-- Bootstrap
-- Font Awesome
+- User Interface updates jQuery, Bootstrap, Font Awesome
+
+## Packages
+- barryvdh/laravel-debugbar
+- barryvdh/laravel-dompdf
+- graham-campbell/exceptions
+- greggilbert/recaptcha
 
 ## Installation
 Coming soon...
