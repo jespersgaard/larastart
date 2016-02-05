@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/task-list.iml" filepath="$PROJECT_DIR$/.idea/task-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/larastart.iml" filepath="$PROJECT_DIR$/.idea/larastart.iml" />
     </modules>
   </component>
 </project>

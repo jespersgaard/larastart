@@ -13,8 +13,8 @@
     <!-- /Fonts -->
 
     <!-- Stylesheets -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('external-stylesheets')
     @yield('inline-stylesheets')
     <!-- /Stylesheets -->
