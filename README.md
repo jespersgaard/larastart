@@ -9,11 +9,12 @@ After a while it got a bit tedious so I decided to create a little package that'
 ## Features
 - Authentication scaffolding
 - Migrations for users, forgot passwords and sessions
--  reCaptcha on register & forgot password
+- reCaptcha on register & forgot password
 - Static Page controller (with tutorial for those that don't have much experience)
 - User Interface updates jQuery, Bootstrap, Font Awesome
 
 ## Packages
+- greggilbert/recaptcha
 - barryvdh/laravel-debugbar
 - barryvdh/laravel-dompdf
 - barryvdh/laravel-ide-helper
