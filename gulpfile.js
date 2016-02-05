@@ -12,6 +12,6 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.styles(['app.css'], 'app.css');
-    mix.scripts(['scroll-to-top.js'], 'app.js');
+    mix.styles(['app.css'], 'public/css/app.css');
+    mix.scripts(['scroll-to-top.js'], 'public/js/app.js');
 });
