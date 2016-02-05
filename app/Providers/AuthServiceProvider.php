@@ -28,7 +28,7 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies($gate);
 
-        if (env('INSTALLED') === 'TRUE')
+        if (env('INSTALLED') == 'TRUE')
         {
             foreach ($this->getPermissions() as $permission) {
                 $gate->define($permission->name, function ($user) use ($permission) {
