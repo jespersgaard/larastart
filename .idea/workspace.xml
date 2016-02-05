@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490f127b-b960-44b6-915d-c086a03dbc4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Traits/HasRole.php" afterPath="$PROJECT_DIR$/app/Traits/HasRole.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
     </list>
     <ignored path="larastart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.403481">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.26898733">
+              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -61,15 +63,16 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_02_05_191008_create_role_user_table.php" />
         <option value="$PROJECT_DIR$/app/Role.php" />
         <option value="$PROJECT_DIR$/app/Permission.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/HasRoles.php" />
         <option value="$PROJECT_DIR$/app/Traits/HasRoles.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/RolesTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Traits/HasRole.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -147,7 +150,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -161,11 +168,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -177,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;User.&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;Roles&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;Perm&#9;FILE&#9;file://C:/wamp/www/larastart/app/Permission.php&#10;home.b&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/home.blade.php&#10;routes&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;Home&#9;null&#9;null&#10;User.ph&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;User&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_191008_create_role_user_table.php&#10;role_u&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_191008_create_role_user_table.php&#10;perm&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190929_create_permission_role_table.php&#10;role_&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;permission_r&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190929_create_permission_role_table.php&#10;create_per&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190436_create_permissions_table.php&#10;create_roles&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;app&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/layouts/app.blade.php&#10;app.css&#9;FILE&#9;file://C:/wamp/www/larastart/resources/assets/css/app.css" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/home.blade.php&#10;User.&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;Roles&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;Perm&#9;FILE&#9;file://C:/wamp/www/larastart/app/Permission.php&#10;home.b&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/home.blade.php&#10;routes&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;Home&#9;null&#9;null&#10;User.ph&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;User&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_191008_create_role_user_table.php&#10;role_u&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_191008_create_role_user_table.php&#10;perm&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190929_create_permission_role_table.php&#10;role_&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;permission_r&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190929_create_permission_role_table.php&#10;create_per&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190436_create_permissions_table.php&#10;create_roles&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;app&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/layouts/app.blade.php&#10;app.css&#9;FILE&#9;file://C:/wamp/www/larastart/resources/assets/css/app.css" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
@@ -230,7 +233,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -363,23 +366,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53797466">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Jobs/Job.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Traits/HasRole.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -435,22 +422,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59177214">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding>
-            <element signature="e#23#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4841772">
           <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
           <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
+            <element signature="e#33#52#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -467,6 +444,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.403481">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Traits/HasRole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6455696">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10759494">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26898733">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
           <folding />
         </state>
       </provider>

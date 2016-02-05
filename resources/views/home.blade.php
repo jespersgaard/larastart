@@ -9,16 +9,6 @@
 
                 <div class="panel-body">
                     Welcome to my website, powered by Laravel 5.2!
-
-                    @can('edit_forum')
-                    <br />
-                    <a href="#">Edit Form</a>
-                    @endcan
-
-                    @can('manage_money')
-                    <br />
-                    <a href="#">Add Funds</a>
-                    @endcan
                 </div>
             </div>
         </div>

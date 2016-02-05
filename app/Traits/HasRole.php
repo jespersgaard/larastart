@@ -2,7 +2,9 @@
 
 namespace App\Traits;
 
-trait HasRoles
+use App\Role as Role;
+
+trait HasRole
 {
     /**
      * A user belongs to many roles.
