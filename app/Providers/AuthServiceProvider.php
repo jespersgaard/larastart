@@ -27,8 +27,8 @@ class AuthServiceProvider extends ServiceProvider
     public function boot(GateContract $gate)
     {
         $this->registerPolicies($gate);
-        
-        if (Schema::hasTable('permissions'))
+
+        if (env('INSTALLED') === 'TRUE')
         {
             foreach ($this->getPermissions() as $permission) {
                 $gate->define($permission->name, function ($user) use ($permission) {
