@@ -4,11 +4,6 @@
 ## Installation
 Once you have installted Larastart and run all migrations you will need to add ``` INSTALLED=TRUE ``` to your ```.env``` file.
 
-## About
-I created Larastart as I would often download many of the same packages at the beginning of every project.
-I would always take too much time setting up a basic template structure, downloading jQuery, Bootstrap and generating the authentication files.
-After a while it got a bit tedious so I decided to create a little package that'll download and install everything to my liking, all out of the box.
-
 ## Features
 - Authentication scaffolding
 - Migrations for users, forgot passwords and sessions
