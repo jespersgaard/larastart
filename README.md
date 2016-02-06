@@ -19,13 +19,13 @@ After a while it got a bit tedious so I decided to create a little package that'
 - [barryvdh/laravel-ide-helper](http://github.com/barryvdh/laravel-ide-helper)
 - [bestmomo/nice-artisan](http://github.com/bestmomo/nice-artisan)
 - [chumper/zipper](http://github.com/chumper/zipper)
-- [graham-campbell/exceptions](http://github.com/graham-campbell/exceptions)
-- [graham-campbell/markdown](http://github.com/graham-campbell/markdown)
+- [graham-campbell/exceptions](http://github.com/GrahamCampbell/Laravel-Exceptions)
+- [graham-campbell/markdown](http://github.com/GrahamCampbell/Laravel-Markdown)
 - [greggilbert/recaptcha](http://github.com/greggilbert/recaptcha)
 - [intervention/image](http://github.com/intervention/image)
-- [laracasts/generators](http://github.com/laracasts/generators)
+- [laracasts/generators](http://github.com/laracasts/Laravel-5-Generators-Extended)
 - [laravelcollective/html](http://github.com/laravelcollective/html)
-- [maatwebsite/excel](http://github.com/maatwebsite/excel)
+- [maatwebsite/excel](https://github.com/maatwebsite/laravel-excel)
 - [yangqi/Htmldom](http://github.com/yangqi/Htmldom)
 
 ## Installation
