@@ -12,6 +12,7 @@ After a while it got a bit tedious so I decided to create a little package that'
 - reCaptcha on register & forgot password
 - Static Page controller (with tutorial for those that don't have much experience)
 - User Interface updates jQuery, Bootstrap, Font Awesome
+- User Roles and Permissions (documentation coming soon)
 
 ## Packages
 - [barryvdh/laravel-debugbar](http://github.com/barryvdh/laravel-debugbar)
