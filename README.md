@@ -29,4 +29,4 @@ After a while it got a bit tedious so I decided to create a little package that'
 - [yangqi/Htmldom](http://github.com/yangqi/Htmldom)
 
 ## Installation
-Once you have installted Larastart and run all migrations you will need to add ``` INSTALLED=TRUE ``` to your '.env' file.
+Once you have installted Larastart and run all migrations you will need to add ``` INSTALLED=TRUE ``` to your ```.env``` file.
