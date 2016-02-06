@@ -21,7 +21,6 @@ class CreateRoleUserTable extends Migration
                 ->on('roles')
                 ->onDelete('cascade');
 
-
             $table->foreign('user_id')
                 ->references('id')
                 ->on('users')
@@ -38,6 +37,6 @@ class CreateRoleUserTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('role_user');
     }
 }
