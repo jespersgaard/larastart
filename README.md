@@ -1,6 +1,9 @@
 # Larastart
 [![Laravel](https://img.shields.io/badge/Laravel-~5.0-orange.svg?style=flat-square)](http://laravel.com) [![Source](http://img.shields.io/badge/source-miiikkeyyyy/larastart-blue.svg?style=flat-square)](https://github.com/miiikkeyyyy/larastart)
 
+## Installation
+Once you have installted Larastart and run all migrations you will need to add ``` INSTALLED=TRUE ``` to your ```.env``` file.
+
 ## About
 I created Larastart as I would often download many of the same packages at the beginning of every project.
 I would always take too much time setting up a basic template structure, downloading jQuery, Bootstrap and generating the authentication files.
@@ -28,6 +31,3 @@ After a while it got a bit tedious so I decided to create a little package that'
 - [laravelcollective/html](http://github.com/laravelcollective/html)
 - [maatwebsite/excel](https://github.com/maatwebsite/laravel-excel)
 - [yangqi/Htmldom](http://github.com/yangqi/Htmldom)
-
-## Installation
-Once you have installted Larastart and run all migrations you will need to add ``` INSTALLED=TRUE ``` to your ```.env``` file.
