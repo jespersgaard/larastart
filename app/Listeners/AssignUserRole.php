@@ -27,6 +27,5 @@ class AssignUserRole
     public function handle(UserWasRegistered $event)
     {
         $event->user->assignRole('user');
-        dd('We have assigned '. $event->user->name . ' a role.');
     }
 }

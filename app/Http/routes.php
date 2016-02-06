@@ -1,8 +1,5 @@
 <?php
 
-use App\User;
-use App\Events\UserWasRegistered;
-
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
@@ -19,8 +16,6 @@ Route::group(['middleware' => 'web'], function () {
 
     // Testing purposes
     Route::get('test', function (){
-        $user = User::first();
 
-        event(new UserWasRegistered($user));
     });
 });
