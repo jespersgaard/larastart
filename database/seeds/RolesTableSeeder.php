@@ -12,20 +12,20 @@ class RolesTableSeeder extends Seeder
     public function run()
     {
         DB::table('roles')->insert([
-            'name' => 'Administrator',
-            'label' => 'A trusted employee of the site who will handle any requests.',
+            'name' => 'administrator',
+            'label' => 'Administrator',
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now()
         ]);
         DB::table('roles')->insert([
-            'name' => 'Moderator',
-            'label' => 'A moderator is here to help.',
+            'name' => 'moderator',
+            'label' => 'Moderator',
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now()
         ]);
         DB::table('roles')->insert([
-            'name' => 'User',
-            'label' => 'A user is somebody that has agreed to abide by our terms and conditions.',
+            'name' => 'user',
+            'label' => 'User',
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now()
         ]);
