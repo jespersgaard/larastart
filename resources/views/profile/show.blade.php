@@ -4,7 +4,9 @@
     <div class="panel panel-default">
     	<div class="panel-heading">{!! $user->name !!}</div>
         <div class="panel-body">
-    	   This is a dummy profile of {!! $user->username !!}.
+            <img src="{{ Gravatar::src($user->email) }}">
+            <br>
+            This is a dummy profile of {!! $user->username !!}.
     	</div>
     </div>
 @endsection

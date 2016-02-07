@@ -31,4 +31,5 @@ Once you have installted Larastart and run all migrations you will need to add `
 - [laracasts/generators](http://github.com/laracasts/Laravel-5-Generators-Extended)
 - [laravelcollective/html](http://github.com/laravelcollective/html)
 - [maatwebsite/excel](https://github.com/maatwebsite/laravel-excel)
+- [thomaswelton/laravel-gravatar](https://github.com/thomaswelton/laravel-gravatar)
 - [yangqi/Htmldom](http://github.com/yangqi/Htmldom)
