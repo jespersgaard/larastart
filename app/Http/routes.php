@@ -11,6 +11,7 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/dashboard', 'DashboardController@index');
 
     // Profile Controller
+    Route::get('profile/{username}', 'ProfileController@show');
     Route::get('edit-profile', 'ProfileController@edit');
     Route::post('edit-profile', 'ProfileController@update');
 

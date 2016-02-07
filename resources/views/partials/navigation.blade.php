@@ -49,6 +49,8 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
+                            <li><a href="{{ url('profile/' . auth()->user()->username) }}"><i class="fa fa-user"></i> Profile</a></li>
+                            <li class="divider"></li>
                             <li><a href="{{ url('dashboard') }}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li><a href="{{ url('edit-profile') }}"><i class="fa fa-user-md"></i> Edit Profile</a></li>
                             <li class="divider"></li>

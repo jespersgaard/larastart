@@ -16,6 +16,17 @@ class ProfileController extends Controller
     }
 
     /**
+     * Show user profile.
+     *
+     * @param User $user
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function show(User $user)
+    {
+        return view('profile.show', compact('user'));
+    }
+
+    /**
      * Show us update profile form.
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
