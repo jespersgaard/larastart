@@ -4,6 +4,7 @@ namespace App;
 
 use App\Traits\HasRole as HasRole;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use App\Events\UserWasRegistered;
 
 class User extends Authenticatable
 {
@@ -27,4 +28,17 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    /**
+     * When mode boots, set some listeners.
+     *
+     * @void
+     */
+    public static function boot()
+    {
+        parent::boot();
+
+        static::created(function ($user) {
+            event(new UserWasRegistered($user));
+        });
+    }
 }

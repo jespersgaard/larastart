@@ -26,6 +26,10 @@ class AssignUserRole
      */
     public function handle(UserWasRegistered $event)
     {
-        $event->user->assignRole('user');
+        if($event->user->id === 1) {
+            return $event->user->assignRole('administrator');
+        }
+
+        return $event->user->assignRole('user');
     }
 }
