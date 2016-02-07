@@ -14,6 +14,7 @@ class EventServiceProvider extends ServiceProvider
      */
     protected $listen = [
         'App\Events\UserWasRegistered' => [
+            'App\Listeners\WelcomeNewUser',
             'App\Listeners\AssignUserRole',
         ],
     ];
