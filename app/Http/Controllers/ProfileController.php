@@ -37,7 +37,7 @@ class ProfileController extends Controller
     {
         auth()->user()->update($request->all());
 
-        flash()->overlay('Your profile has successfully been updated.','Profile Updated');
+        flash()->success('Your profile has successfully been updated.');
 
         return redirect()->back();
     }
