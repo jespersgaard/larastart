@@ -9,10 +9,10 @@ Once you have installted Larastart and run all migrations you will need to add `
 - Authentication scaffolding
 - Migrations for users, forgot passwords and sessions
 - reCaptcha on register & forgot password
-- Static Page controller (with tutorial for those that don't have much experience)
-- User Interface updates jQuery, Bootstrap, Font Awesome
-- User Roles and Permissions (documentation coming soon)
-- Edit Profile
+- Static Page controller added. (with tutorial for those that don't have much experience)
+- User Interface updates jQuery, Bootstrap, Font Awesome added.
+- User Roles and Permissions added. (documentation coming soon)
+- Show & Edit Profile added.
 
 #### Coming Soon 
 - Change Password
