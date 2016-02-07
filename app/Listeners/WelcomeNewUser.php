@@ -20,15 +20,17 @@ class WelcomeNewUser
     }
 
     /**
-     * Handle the event.
+     * Handle this event.
      *
-     * @param  UserWasRegistered  $event
-     * @return void
+     * @param UserWasRegistered $event
+     * @return bool
      */
     public function handle(UserWasRegistered $event)
     {
-        Mail::send('auth.emails.welcome', ['user' => $event->user], function ($m) use ($event) {
-            $m->to($event->user->email, $event->user->name)->subject('Welcome to ' . config('larastart.website_name') . '!');
-        });
+        if(config('larastart.send_register_welcome_email') !== false) {
+            Mail::send('auth.emails.welcome', ['user' => $event->user], function ($m) use ($event) {
+                $m->to($event->user->email, $event->user->name)->subject('Welcome to ' . config('larastart.website_name') . '!');
+            });
+        }
     }
 }

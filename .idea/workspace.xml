@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490f127b-b960-44b6-915d-c086a03dbc4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Listeners/WelcomeNewUser.php" afterPath="$PROJECT_DIR$/app/Listeners/WelcomeNewUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/larastart.php" afterPath="$PROJECT_DIR$/config/larastart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/profile/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/profile/edit.blade.php" />
     </list>
     <ignored path="larastart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,36 +29,7 @@
     <favorites_list name="larastart" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProfileController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-              <folding>
-                <element signature="e#40#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.20623916">
-                <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,7 +56,6 @@
         <option value="$PROJECT_DIR$/app/HasRoles.php" />
         <option value="$PROJECT_DIR$/app/Traits/HasRoles.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/config/recaptcha.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_05_191008_create_role_user_table.php" />
@@ -90,14 +66,11 @@
         <option value="$PROJECT_DIR$/app/Events/UserWasRegistered.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
         <option value="$PROJECT_DIR$/bootstrap/cache/compiled.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Listeners/AssignUserRole.php" />
         <option value="$PROJECT_DIR$/app/Traits/HasRole.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
-        <option value="$PROJECT_DIR$/config/larastart.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/emails/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/app/Listeners/WelcomeNewUser.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/.env" />
@@ -111,13 +84,18 @@
         <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/503.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/tutorial.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/config/larastart.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/app/Listeners/WelcomeNewUser.php" />
       </list>
     </option>
   </component>
@@ -196,11 +174,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,15 +188,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,7 +206,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larastart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larastart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="READM&#9;FILE&#9;file://C:/wamp/www/larastart/README.md&#10;Profile&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;PC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/Auth/PasswordController.php&#10;app&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/layouts/app.blade.php&#10;EPR&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Requests/EditProfileRequest.php&#10;profile&#9;null&#9;null&#10;regi&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/auth/register.blade.php&#10;ProfileC&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;navig&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/partials/navigation.blade.php&#10;Services&#9;FILE&#9;file://C:/wamp/www/larastart/config/services.php&#10;register&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/auth/register.blade.php&#10;welc&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/auth/emails/welcome.blade.php&#10;ESP&#9;FILE&#9;file://C:/wamp/www/larastart/app/Providers/EventServiceProvider.php&#10;app.&#9;FILE&#9;file://C:/wamp/www/larastart/config/app.php&#10;Home&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/HomeController.php&#10;Regi&#9;FILE&#9;file://C:/wamp/www/larastart/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php&#10;route&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;home&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/HomeController.php&#10;rout&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;AUR&#9;null&#9;null&#10;UWR&#9;null&#9;null&#10;Route.&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;HomeC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/HomeController.php&#10;s&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;AuthSe&#9;FILE&#9;file://C:/wamp/www/larastart/app/Providers/AuthServiceProvider.php&#10;readme&#9;FILE&#9;file://C:/wamp/www/larastart/README.md&#10;views('password&#9;null&#9;null&#10;reca&#9;FILE&#9;file://C:/wamp/www/larastart/config/recaptcha.php&#10;User.&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;Roles&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;Perm&#9;FILE&#9;file://C:/wamp/www/larastart/app/Permission.php&#10;home.b&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/home.blade.php&#10;User.ph&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;User&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_191008_create_role_user_table.php&#10;role_u&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_191008_create_role_user_table.php&#10;perm&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190929_create_permission_role_table.php&#10;role_&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;permission_r&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190929_create_permission_role_table.php&#10;create_per&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190436_create_permissions_table.php&#10;create_roles&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;app.css&#9;FILE&#9;file://C:/wamp/www/larastart/resources/assets/css/app.css" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/auth/register.blade.php&#10;READM&#9;FILE&#9;file://C:/wamp/www/larastart/README.md&#10;Profile&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;PC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/Auth/PasswordController.php&#10;app&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/layouts/app.blade.php&#10;EPR&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Requests/EditProfileRequest.php&#10;profile&#9;null&#9;null&#10;regi&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/auth/register.blade.php&#10;ProfileC&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;navig&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/partials/navigation.blade.php&#10;Services&#9;FILE&#9;file://C:/wamp/www/larastart/config/services.php&#10;register&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/auth/register.blade.php&#10;welc&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/auth/emails/welcome.blade.php&#10;ESP&#9;FILE&#9;file://C:/wamp/www/larastart/app/Providers/EventServiceProvider.php&#10;app.&#9;FILE&#9;file://C:/wamp/www/larastart/config/app.php&#10;Home&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/HomeController.php&#10;Regi&#9;FILE&#9;file://C:/wamp/www/larastart/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php&#10;route&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;home&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/HomeController.php&#10;rout&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;AUR&#9;null&#9;null&#10;UWR&#9;null&#9;null&#10;Route.&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;HomeC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/HomeController.php&#10;s&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;AuthSe&#9;FILE&#9;file://C:/wamp/www/larastart/app/Providers/AuthServiceProvider.php&#10;readme&#9;FILE&#9;file://C:/wamp/www/larastart/README.md&#10;views('password&#9;null&#9;null&#10;reca&#9;FILE&#9;file://C:/wamp/www/larastart/config/recaptcha.php&#10;User.&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;Roles&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;Perm&#9;FILE&#9;file://C:/wamp/www/larastart/app/Permission.php&#10;home.b&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/home.blade.php&#10;User.ph&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;User&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_191008_create_role_user_table.php&#10;role_u&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_191008_create_role_user_table.php&#10;perm&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190929_create_permission_role_table.php&#10;role_&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;permission_r&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190929_create_permission_role_table.php&#10;create_per&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190436_create_permissions_table.php&#10;create_roles&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_05_190154_create_roles_table.php&#10;app.css&#9;FILE&#9;file://C:/wamp/www/larastart/resources/assets/css/app.css" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
@@ -303,10 +307,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -397,13 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/RolesTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6993671">
@@ -415,14 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7579114">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,20 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18829113">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.511076">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/image.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53797466">
@@ -503,31 +478,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/larastart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21518987">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/emails/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Listeners/WelcomeNewUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7531645">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -619,14 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81170887">
-          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10759494">
@@ -655,14 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21518987">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9193038">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -699,16 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-          <folding>
-            <element signature="e#40#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -721,6 +649,88 @@
       </provider>
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7041139">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+          <folding>
+            <element signature="e#40#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43037975">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/larastart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43037975">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40822786">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26898733">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Listeners/WelcomeNewUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67246836">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29588607">
+          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.511076">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

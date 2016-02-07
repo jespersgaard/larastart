@@ -10,5 +10,10 @@ return array(
     'webmaster_name' => 'Michael King',
     'webmaster_email' => 'michaelking666@hotmail.com',
 
+    /**
+     * New User Register options
+     *
+     */
+    'send_register_welcome_email' => false,
 );
 
