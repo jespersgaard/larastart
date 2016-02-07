@@ -35,8 +35,7 @@ class ProfileController extends Controller
      */
     public function update(EditProfileRequest $request)
     {
-        $user = User::findOrFail(auth()->user()->id);
-        $user->update($request->all());
+        auth()->user()->update($request->all());
 
         flash()->overlay('Your profile has successfully been updated.','Profile Updated');
 
