@@ -18,7 +18,8 @@
         "intervention/image": "^2.3",
         "laravelcollective/html": "5.2.*",
         "maatwebsite/excel": "~2.1.0",
-        "yangqi/htmldom": "dev-master"
+        "yangqi/htmldom": "dev-master",
+        "laracasts/flash": "^1.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

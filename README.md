@@ -22,6 +22,7 @@ Once you have installted Larastart and run all migrations you will need to add `
 - [graham-campbell/markdown](http://github.com/GrahamCampbell/Laravel-Markdown)
 - [greggilbert/recaptcha](http://github.com/greggilbert/recaptcha)
 - [intervention/image](http://github.com/intervention/image)
+- [laracasts/flash](http://github.com/laracasts/flash)
 - [laracasts/generators](http://github.com/laracasts/Laravel-5-Generators-Extended)
 - [laravelcollective/html](http://github.com/laravelcollective/html)
 - [maatwebsite/excel](https://github.com/maatwebsite/laravel-excel)

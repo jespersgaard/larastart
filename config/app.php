@@ -171,6 +171,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Yangqi\Htmldom\HtmldomServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
     ],
 
     /*
@@ -230,6 +231,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Htmldom' => Yangqi\Htmldom\Htmldom::class,
+        'Flash' => Laracasts\Flash\Flash::class
     ],
 
 ];
