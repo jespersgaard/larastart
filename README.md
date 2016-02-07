@@ -4,9 +4,6 @@
 ## Installation
 Once you have installted Larastart and run all migrations you will need to add ``` INSTALLED=TRUE ``` to your ```.env``` file.
 
-## TEST
-test.
-
 ## Features
 #### Implimented
 - Authentication scaffolding
