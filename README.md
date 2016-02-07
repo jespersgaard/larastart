@@ -11,6 +11,10 @@ Once you have installted Larastart and run all migrations you will need to add `
 - Static Page controller (with tutorial for those that don't have much experience)
 - User Interface updates jQuery, Bootstrap, Font Awesome
 - User Roles and Permissions (documentation coming soon)
+- Edit Profile
+
+#### Coming Soon 
+- Change Password
 
 ## Packages
 - [barryvdh/laravel-debugbar](http://github.com/barryvdh/laravel-debugbar)
