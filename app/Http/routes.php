@@ -24,7 +24,7 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/how-to/create-a-static-page', 'PagesController@addPage');
 
     // Testing purposes
-    Route::get('test', function (){
+    Route::get('test', function () {
 
     });
 });

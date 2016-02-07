@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-<!-- Main Content -->
+        <!-- Main Content -->
 @section('content')
     <div class="panel panel-default">
         <div class="panel-heading">Reset Password</div>

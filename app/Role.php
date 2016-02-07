@@ -7,16 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Role extends Model
 {
     /**
-     * A role belongs to many permissions.
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     */
-    public function permissions()
-    {
-        return $this->belongsToMany(Permission::class);
-    }
-
-    /**
      * Gives a role permission.
      *
      * @param Permission $permission
@@ -25,5 +15,15 @@ class Role extends Model
     public function givePermissionTo(Permission $permission)
     {
         return $this->permissions()->save($permission);
+    }
+
+    /**
+     * A role belongs to many permissions.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function permissions()
+    {
+        return $this->belongsToMany(Permission::class);
     }
 }

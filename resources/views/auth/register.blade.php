@@ -81,7 +81,7 @@
                     <label class="col-md-4 control-label"></label>
 
                     <div class="col-md-6">
-                      {!! Recaptcha::render() !!}
+                        {!! Recaptcha::render() !!}
 
                         @if ($errors->has('g-recaptcha-response'))
                             <span class="help-block">

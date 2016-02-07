@@ -14,7 +14,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                Laravel
+                {{ config('larastart.website_name') }}
             </a>
         </div>
 
@@ -30,7 +30,9 @@
                     </a>
 
                     <ul class="dropdown-menu" role="menu">
-                        <li @if(Request::is('how-to/create-a-static-page')) class="active" @endif><a href="{{ url('how-to/create-a-static-page') }}"><i class="fa fa-pagelines"></i> Create a Page</a></li>
+                        <li @if(Request::is('how-to/create-a-static-page')) class="active" @endif><a
+                                    href="{{ url('how-to/create-a-static-page') }}"><i class="fa fa-pagelines"></i>
+                                Create a Page</a></li>
                     </ul>
                 </li>
             </ul>
@@ -49,7 +51,8 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="{{ url('profile/' . auth()->user()->username) }}"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a href="{{ url('profile/' . auth()->user()->username) }}"><i class="fa fa-user"></i>
+                                    Profile</a></li>
                             <li class="divider"></li>
                             <li><a href="{{ url('dashboard') }}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li><a href="{{ url('edit-profile') }}"><i class="fa fa-user-md"></i> Edit Profile</a></li>

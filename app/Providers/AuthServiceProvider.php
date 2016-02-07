@@ -5,7 +5,6 @@ namespace App\Providers;
 use App\Permission;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use Illuminate\Support\Facades\Schema;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -28,8 +27,7 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies($gate);
 
-        if (env('INSTALLED') == 'TRUE')
-        {
+        if (env('INSTALLED') == 'TRUE') {
             foreach ($this->getPermissions() as $permission) {
                 $gate->define($permission->name, function ($user) use ($permission) {
                     return $user->hasRole($permission->roles);

@@ -3,8 +3,6 @@
 namespace App\Listeners;
 
 use App\Events\UserWasRegistered;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Support\Facades\Mail;
 
 class WelcomeNewUser
@@ -27,7 +25,7 @@ class WelcomeNewUser
      */
     public function handle(UserWasRegistered $event)
     {
-        if(config('larastart.send_register_welcome_email') !== false) {
+        if (config('larastart.send_register_welcome_email') !== false) {
             Mail::send('auth.emails.welcome', ['user' => $event->user], function ($m) use ($event) {
                 $m->to($event->user->email, $event->user->name)->subject('Welcome to ' . config('larastart.website_name') . '!');
             });
