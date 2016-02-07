@@ -5,6 +5,7 @@
 Once you have installted Larastart and run all migrations you will need to add ``` INSTALLED=TRUE ``` to your ```.env``` file.
 
 ## Features
+#### Implimented
 - Authentication scaffolding
 - Migrations for users, forgot passwords and sessions
 - reCaptcha on register & forgot password
