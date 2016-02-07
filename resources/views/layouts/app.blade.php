@@ -29,6 +29,8 @@
     <!-- /Navigation -->
 
     <!-- Content -->
+    @include('flash::message')
+
     @yield('content')
     <!-- /Content -->
 
@@ -36,6 +38,9 @@
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
+    <script>
+        $('#flash-overlay-modal').modal();
+    </script>
     @yield('external-javascript')
     @yield('inline-javascript')
     <!-- /JavaScripts -->

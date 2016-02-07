@@ -10,6 +10,10 @@ Route::group(['middleware' => 'web'], function () {
     // Dashboard Controller
     Route::get('/dashboard', 'DashboardController@index');
 
+    // Profile Controller
+    Route::get('edit-profile', 'ProfileController@edit');
+    Route::post('edit-profile', 'ProfileController@update');
+
     // Pages Controller
     Route::get('/about', 'PagesController@about');
     Route::get('/how-to/create-a-static-page', 'PagesController@addPage');
