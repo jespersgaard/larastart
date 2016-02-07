@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\EditProfileRequest;
 use App\User;
+use Symfony\Component\HttpFoundation\Request;
 
 class ProfileController extends Controller
 {
@@ -49,6 +50,39 @@ class ProfileController extends Controller
         auth()->user()->update($request->all());
 
         flash()->success('Your profile has successfully been updated.');
+
+        return redirect()->back();
+    }
+
+    /**
+     * Show edit profile form.
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function editPassword()
+    {
+        $user = auth()->user();
+
+        return view('profile.password');
+    }
+
+    /**
+     * Update authenticated users password.
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function updatePassword(Request $request)
+    {
+        $this->validate($request, [
+            'password' => 'required|confirmed|min:6'
+        ]);
+
+        auth()->user()->update([
+            'password' => bcrypt($request->get('password'))
+        ]);
+
+        flash()->success('Password changed successfully.');
 
         return redirect()->back();
     }

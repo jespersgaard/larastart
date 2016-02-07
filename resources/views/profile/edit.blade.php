@@ -2,7 +2,10 @@
 
 @section('content')
     <div class="panel panel-default">
-        <div class="panel-heading">Edit Profile</div>
+        <div class="panel-heading">Edit Profile
+
+            <a href="{{ url('edit-profile/password') }}" class="pull-right">Change Password</a>
+        </div>
         <div class="panel-body">
             {{ Form::model($user, ['action' => 'ProfileController@edit', 'class' => 'form-horizontal']) }}
 

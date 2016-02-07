@@ -12,8 +12,12 @@ Route::group(['middleware' => 'web'], function () {
 
     // Profile Controller
     Route::get('profile/{username}', 'ProfileController@show');
+
     Route::get('edit-profile', 'ProfileController@edit');
     Route::post('edit-profile', 'ProfileController@update');
+
+    Route::get('edit-profile/password', 'ProfileController@editPassword');
+    Route::post('edit-profile/password', 'ProfileController@updatePassword');
 
     // Pages Controller
     Route::get('/about', 'PagesController@about');
