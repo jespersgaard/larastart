@@ -7,23 +7,7 @@
             <a href="{{ url('edit-profile/password') }}" class="pull-right">Change Password</a>
         </div>
         <div class="panel-body">
-            {{ Form::model($user, ['action' => 'ProfileController@edit', 'class' => 'form-horizontal']) }}
-
-            <div class="form-group">
-                {{ Form::label('username', 'Username', ['class' => 'col-md-4 control-label']) }}
-
-                <div class="col-md-6">
-                    {{ Form::text('username', old('username'), ['class' => 'form-control','disabled' => 'disabled']) }}
-                </div>
-            </div>
-
-            <div class="form-group">
-                {{ Form::label('email', 'Email Address', ['class' => 'col-md-4 control-label']) }}
-
-                <div class="col-md-6">
-                    {{ Form::text('email', old('email'), ['class' => 'form-control','disabled' => 'disabled']) }}
-                </div>
-            </div>
+            {{ Form::model(auth()->user()->profile, ['action' => 'ProfileController@edit', 'class' => 'form-horizontal']) }}
 
             <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                 {{ Form::label('name', 'Name', ['class' => 'col-md-4 control-label']) }}
@@ -34,6 +18,20 @@
                     @if ($errors->has('name'))
                         <span class="help-block">
                             <strong>{{ $errors->first('name') }}</strong>
+                        </span>
+                    @endif
+                </div>
+            </div>
+
+            <div class="form-group{{ $errors->has('location') ? ' has-error' : '' }}">
+                {{ Form::label('location', 'Location', ['class' => 'col-md-4 control-label']) }}
+
+                <div class="col-md-6">
+                    {{ Form::text('location', old('location'), ['class' => 'form-control']) }}
+
+                    @if ($errors->has('location'))
+                        <span class="help-block">
+                            <strong>{{ $errors->first('location') }}</strong>
                         </span>
                     @endif
                 </div>

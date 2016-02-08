@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\EditProfileRequest;
 use App\User;
+use Illuminate\Support\Facades\Input;
 use Symfony\Component\HttpFoundation\Request;
 
 class ProfileController extends Controller
@@ -34,9 +34,7 @@ class ProfileController extends Controller
      */
     public function edit()
     {
-        $user = auth()->user();
-
-        return view('profile.edit', compact('user'));
+        return view('profile.edit');
     }
 
     /**
@@ -45,9 +43,11 @@ class ProfileController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(EditProfileRequest $request)
+    public function update()
     {
-        auth()->user()->update($request->all());
+        $input = Input::except('_method', '_token');
+
+        auth()->user()->profile()->update($input);
 
         flash()->success('Your profile has successfully been updated.');
 
@@ -61,8 +61,6 @@ class ProfileController extends Controller
      */
     public function editPassword()
     {
-        $user = auth()->user();
-
         return view('profile.password');
     }
 
