@@ -32,7 +32,7 @@ class ProfileController extends Controller
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function edit()
+    public function getEditProfile()
     {
         return view('profile.edit');
     }
@@ -43,11 +43,9 @@ class ProfileController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function update()
+    public function postEditProfile(Request $request)
     {
-        $input = Input::except('_method', '_token');
-
-        auth()->user()->profile()->update($input);
+        auth()->user()->profile()->update($request->except(['_method','_token']));
 
         flash()->success('Your profile has successfully been updated.');
 
@@ -59,7 +57,7 @@ class ProfileController extends Controller
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function editPassword()
+    public function getEditPassword()
     {
         return view('profile.password');
     }
@@ -70,7 +68,7 @@ class ProfileController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function updatePassword(Request $request)
+    public function postEditPassword(Request $request)
     {
         $this->validate($request, [
             'password' => 'required|confirmed|min:6'

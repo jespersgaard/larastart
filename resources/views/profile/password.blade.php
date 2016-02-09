@@ -4,7 +4,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">Change Password</div>
         <div class="panel-body">
-            {{ Form::open(['action' => 'ProfileController@editPassword', 'class' => 'form-horizontal']) }}
+            {{ Form::open(['action' => 'ProfileController@getEditPassword', 'class' => 'form-horizontal']) }}
 
 
             <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">

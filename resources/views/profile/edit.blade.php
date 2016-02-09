@@ -4,13 +4,13 @@
     <div class="panel panel-default">
         <div class="panel-heading">Edit Profile
 
-            <a href="{{ url('edit-profile/password') }}" class="pull-right">Change Password</a>
+            <a href="{{ url('settings/password') }}" class="pull-right">Change Password</a>
         </div>
         <div class="panel-body">
-            {{ Form::model(auth()->user()->profile, ['action' => 'ProfileController@edit', 'class' => 'form-horizontal']) }}
+            {{ Form::model(auth()->user()->profile, ['action' => 'ProfileController@getEditProfile', 'class' => 'form-horizontal']) }}
 
             <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                {{ Form::label('name', 'Name', ['class' => 'col-md-4 control-label']) }}
+                {{ Form::label('name', 'Display Name', ['class' => 'col-md-4 control-label']) }}
 
                 <div class="col-md-6">
                     {{ Form::text('name', old('name'), ['class' => 'form-control']) }}
@@ -23,15 +23,29 @@
                 </div>
             </div>
 
-            <div class="form-group{{ $errors->has('location') ? ' has-error' : '' }}">
-                {{ Form::label('location', 'Location', ['class' => 'col-md-4 control-label']) }}
+            <div class="form-group{{ $errors->has('country') ? ' has-error' : '' }}">
+                {{ Form::label('country', 'Country', ['class' => 'col-md-4 control-label']) }}
 
                 <div class="col-md-6">
-                    {{ Form::text('location', old('location'), ['class' => 'form-control']) }}
+                    {{ Form::text('country', old('country'), ['class' => 'form-control']) }}
 
-                    @if ($errors->has('location'))
+                    @if ($errors->has('country'))
                         <span class="help-block">
-                            <strong>{{ $errors->first('location') }}</strong>
+                            <strong>{{ $errors->first('country') }}</strong>
+                        </span>
+                    @endif
+                </div>
+            </div>
+
+            <div class="form-group{{ $errors->has('hometown') ? ' has-error' : '' }}">
+                {{ Form::label('hometown', 'Hometown', ['class' => 'col-md-4 control-label']) }}
+
+                <div class="col-md-6">
+                    {{ Form::text('hometown', old('hometown'), ['class' => 'form-control']) }}
+
+                    @if ($errors->has('hometown'))
+                        <span class="help-block">
+                            <strong>{{ $errors->first('hometown') }}</strong>
                         </span>
                     @endif
                 </div>

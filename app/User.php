@@ -2,12 +2,13 @@
 
 namespace App;
 
-use App\Traits\HasRole as HasRole;
+use App\Traits\HasProfile;
+use App\Traits\HasRole;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    use HasRole;
+    use HasRole, HasProfile;
 
     /**
      * The attributes that are mass assignable.
@@ -26,28 +27,4 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-
-    /**
-     * A user has a profile.
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasOne
-     */
-    public function profile()
-    {
-        return $this->hasOne(UserProfile::class);
-    }
-
-    /**
-     * Returns a name attribute for the user.
-     *
-     * @return mixed
-     */
-    public function getNameAttribute()
-    {
-        if ($this->profile->name) {
-            return $this->profile->name;
-        }
-
-        return $this->attributes['username'];
-    }
 }

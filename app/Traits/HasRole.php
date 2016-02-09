@@ -7,6 +7,16 @@ use App\Role as Role;
 trait HasRole
 {
     /**
+     * A user belongs to many roles.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function roles()
+    {
+        return $this->belongsToMany(Role::class);
+    }
+
+    /**
      * Assign a role to a user.
      *
      * @param $role
@@ -16,16 +26,6 @@ trait HasRole
         return $this->roles()->save(
             Role::whereName($role)->firstOrFail()
         );
-    }
-
-    /**
-     * A user belongs to many roles.
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     */
-    public function roles()
-    {
-        return $this->belongsToMany(Role::class);
     }
 
     /**

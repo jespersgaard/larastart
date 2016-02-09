@@ -13,11 +13,11 @@ Route::group(['middleware' => 'web'], function () {
     // Profile Controller
     Route::get('profile/{username}', 'ProfileController@show');
 
-    Route::get('edit-profile', 'ProfileController@edit');
-    Route::post('edit-profile', 'ProfileController@update');
+    Route::get('/settings/edit-profile', 'ProfileController@getEditProfile');
+    Route::post('/settings/edit-profile', 'ProfileController@postEditProfile');
 
-    Route::get('edit-profile/password', 'ProfileController@editPassword');
-    Route::post('edit-profile/password', 'ProfileController@updatePassword');
+    Route::get('/settings/password', 'ProfileController@getEditPassword');
+    Route::post('/settings/password', 'ProfileController@postEditPassword');
 
     // Pages Controller
     Route::get('/about', 'PagesController@about');
