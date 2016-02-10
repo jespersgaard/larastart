@@ -13,6 +13,9 @@ Route::group(['middleware' => 'web'], function () {
     // Profile Controller
     Route::get('profile/{username}', 'ProfileController@show');
 
+    Route::get('/settings/edit-settings', 'ProfileController@getEditSettings');
+    Route::post('/settings/edit-settings', 'ProfileController@postEditSettings');
+
     Route::get('/settings/edit-profile', 'ProfileController@getEditProfile');
     Route::post('/settings/edit-profile', 'ProfileController@postEditProfile');
 

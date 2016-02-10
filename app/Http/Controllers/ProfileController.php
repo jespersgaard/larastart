@@ -28,6 +28,36 @@ class ProfileController extends Controller
     }
 
     /**
+     * Shows us an update settings form.
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function getEditSettings()
+    {
+        return view('profile.settings');
+    }
+
+    /**
+     * Updates user settings.
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function postEditSettings(Request $request)
+    {
+        $this->validate($request, [
+            'username' => 'required|min:6|unique:users,username,' . auth()->user()->id,
+            'email' => 'required|email|min:6|unique:users,email,' . auth()->user()->id
+        ]);
+
+        auth()->user()->update($request->except(['_method', '_token']));
+
+        flash()->success('Settings updated successfully');
+
+        return redirect()->back();
+    }
+
+    /**
      * Show us update profile form.
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View

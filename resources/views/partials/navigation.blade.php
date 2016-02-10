@@ -52,10 +52,13 @@
 
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="{{ url('dashboard') }}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-                            <li class="divider"></li>
                             <li><a href="{{ url('profile/' . auth()->user()->username) }}"><i class="fa fa-user"></i>
-                            View Profile</a></li>
-                            <li><a href="{{ url('settings/edit-profile') }}"><i class="fa fa-user-md"></i> Edit Profile</a></li>
+                                    Your Profile</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{{ url('settings/edit-profile') }}"><i class="fa fa-user-md"></i> Edit Profile</a>
+                            </li>
+                            <li><a href="{{ url('settings/edit-settings') }}"><i class="fa fa-cog"></i> Edit
+                                    Settings</a></li>
                             <li class="divider"></li>
                             <li><a href="{{ url('logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
                         </ul>
