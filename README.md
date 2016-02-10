@@ -6,16 +6,14 @@ Once you have installted Larastart and run all migrations you will need to add `
 
 ## Features
 #### Implimented
-- Authentication scaffolding
-- Migrations for users, forgot passwords and sessions
-- reCaptcha on register & forgot password
+- Authentication scaffolding.
+- Migrations for users, forgot passwords and sessions.
+- reCaptcha on register & forgot password.
 - Static Page controller added. (with tutorial for those that don't have much experience)
 - User Interface updates jQuery, Bootstrap, Font Awesome added.
 - User Roles and Permissions added. (documentation coming soon)
 - Show & Edit Profile added.
-
-#### Coming Soon 
-- Change Password
+- Change Password.
 
 ## Packages
 - [barryvdh/laravel-debugbar](http://github.com/barryvdh/laravel-debugbar)
@@ -32,4 +30,5 @@ Once you have installted Larastart and run all migrations you will need to add `
 - [laravelcollective/html](http://github.com/laravelcollective/html)
 - [maatwebsite/excel](https://github.com/maatwebsite/laravel-excel)
 - [thomaswelton/laravel-gravatar](https://github.com/thomaswelton/laravel-gravatar)
+- [webpatser/laravel-countries](https://github.com/webpatser/laravel-countries)
 - [yangqi/Htmldom](http://github.com/yangqi/Htmldom)

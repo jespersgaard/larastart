@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\User;
-use Illuminate\Support\Facades\Input;
 use Symfony\Component\HttpFoundation\Request;
+use Webpatser\Countries\Countries;
 
 class ProfileController extends Controller
 {
@@ -34,7 +34,9 @@ class ProfileController extends Controller
      */
     public function getEditProfile()
     {
-        return view('profile.edit');
+        $countries = Countries::orderBy('name')->pluck('name','id');
+
+        return view('profile.edit', compact('countries'));
     }
 
     /**
@@ -45,7 +47,7 @@ class ProfileController extends Controller
      */
     public function postEditProfile(Request $request)
     {
-        auth()->user()->profile()->update($request->except(['_method','_token']));
+        auth()->user()->profile()->update($request->except(['_method', '_token']));
 
         flash()->success('Your profile has successfully been updated.');
 

@@ -10,7 +10,7 @@
             {{ Form::model(auth()->user()->profile, ['action' => 'ProfileController@getEditProfile', 'class' => 'form-horizontal']) }}
 
             <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                {{ Form::label('name', 'Display Name', ['class' => 'col-md-4 control-label']) }}
+                {{ Form::label('name', 'Name', ['class' => 'col-md-4 control-label']) }}
 
                 <div class="col-md-6">
                     {{ Form::text('name', old('name'), ['class' => 'form-control']) }}
@@ -27,7 +27,7 @@
                 {{ Form::label('country', 'Country', ['class' => 'col-md-4 control-label']) }}
 
                 <div class="col-md-6">
-                    {{ Form::text('country', old('country'), ['class' => 'form-control']) }}
+                    {{ Form::select('country', $countries, old('country'), ['class' => 'form-control']) }}
 
                     @if ($errors->has('country'))
                         <span class="help-block">
