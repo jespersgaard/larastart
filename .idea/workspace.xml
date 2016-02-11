@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490f127b-b960-44b6-915d-c086a03dbc4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/partials/left.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/partials/right.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/right.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/right.blade.php" />
     </list>
     <ignored path="larastart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/EditProfileRequest.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/app.css" />
@@ -97,8 +87,9 @@
         <option value="$PROJECT_DIR$/resources/views/partials/left.widgets.blad.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/left.widgets.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/right.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/left.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/right.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/widgets/search.blade.php" />
       </list>
     </option>
   </component>
@@ -165,6 +156,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larastart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larastart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larastart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larastart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larastart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larastart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -174,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="na&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/widgets/navigation.blade.php&#10;User.php&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;navig&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/widgets/navigation.blade.php&#10;users&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;create_na&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_11_083206_create_navigation_table.php&#10;app&#9;FILE&#9;file://C:/wamp/www/larastart/config/app.php&#10;Pro&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;use&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;sett&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/settings.blade.php&#10;c&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;us&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;user.&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;se&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/settings.blade.php&#10;creat&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;PC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;create_us&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;rou&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;nav&#9;null&#9;null&#10;Prof&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;route&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;CountriesFac&#9;null&#9;null&#10;Edit&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/edit.blade.php&#10;READM&#9;FILE&#9;file://C:/wamp/www/larastart/README.md&#10;App&#9;FILE&#9;file://C:/wamp/www/larastart/config/app.php&#10;edit.&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/edit.blade.php&#10;routes&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;pass&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/password.blade.php&#10;UserProf&#9;FILE&#9;file://C:/wamp/www/larastart/app/UserProfile.php&#10;hasPr&#9;FILE&#9;file://C:/wamp/www/larastart/app/Traits/HasProfile.php&#10;edit&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/edit.blade.php&#10;create&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_08_104255_create_user_profile_table.php&#10;Profil&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;Route&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;Profile&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;ProfileC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;editp&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/edit.blade.php&#10;User&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;navi&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/partials/navigation.blade.php&#10;show.&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/show.blade.php&#10;ProfileCont&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;create_users&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;UT&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_08_104255_create_user_profile_table.php&#10;pC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;CUPT&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_08_104255_create_user_profile_table.php&#10;ESP&#9;FILE&#9;file://C:/wamp/www/larastart/app/Providers/EventServiceProvider.php&#10;UWR&#9;FILE&#9;file://C:/wamp/www/larastart/app/Events/UserWasRegistered.php&#10;sho&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/show.blade.php&#10;Gravat&#9;FILE&#9;file://C:/wamp/www/larastart/config/gravatar.php&#10;README&#9;FILE&#9;file://C:/wamp/www/larastart/README.md&#10;README.&#9;FILE&#9;file://C:/wamp/www/larastart/README.md" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/partials/right.blade.php&#10;na&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/widgets/navigation.blade.php&#10;User.php&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;navig&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/widgets/navigation.blade.php&#10;users&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;create_na&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_11_083206_create_navigation_table.php&#10;app&#9;FILE&#9;file://C:/wamp/www/larastart/config/app.php&#10;Pro&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;use&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;sett&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/settings.blade.php&#10;c&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;us&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;user.&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;se&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/settings.blade.php&#10;creat&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;PC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;create_us&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;rou&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;nav&#9;null&#9;null&#10;Prof&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;route&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;CountriesFac&#9;null&#9;null&#10;Edit&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/edit.blade.php&#10;READM&#9;FILE&#9;file://C:/wamp/www/larastart/README.md&#10;App&#9;FILE&#9;file://C:/wamp/www/larastart/config/app.php&#10;edit.&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/edit.blade.php&#10;routes&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;pass&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/password.blade.php&#10;UserProf&#9;FILE&#9;file://C:/wamp/www/larastart/app/UserProfile.php&#10;hasPr&#9;FILE&#9;file://C:/wamp/www/larastart/app/Traits/HasProfile.php&#10;edit&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/edit.blade.php&#10;create&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_08_104255_create_user_profile_table.php&#10;Profil&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;Route&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/routes.php&#10;Profile&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;ProfileC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;editp&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/edit.blade.php&#10;User&#9;FILE&#9;file://C:/wamp/www/larastart/app/User.php&#10;navi&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/partials/navigation.blade.php&#10;show.&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/show.blade.php&#10;ProfileCont&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;create_users&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2014_10_12_000000_create_users_table.php&#10;UT&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_08_104255_create_user_profile_table.php&#10;pC&#9;FILE&#9;file://C:/wamp/www/larastart/app/Http/Controllers/ProfileController.php&#10;CUPT&#9;FILE&#9;file://C:/wamp/www/larastart/database/migrations/2016_02_08_104255_create_user_profile_table.php&#10;ESP&#9;FILE&#9;file://C:/wamp/www/larastart/app/Providers/EventServiceProvider.php&#10;UWR&#9;FILE&#9;file://C:/wamp/www/larastart/app/Events/UserWasRegistered.php&#10;sho&#9;FILE&#9;file://C:/wamp/www/larastart/resources/views/profile/show.blade.php&#10;Gravat&#9;FILE&#9;file://C:/wamp/www/larastart/config/gravatar.php&#10;README&#9;FILE&#9;file://C:/wamp/www/larastart/README.md" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
@@ -657,10 +702,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/widgets/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10759494">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partials/right.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>

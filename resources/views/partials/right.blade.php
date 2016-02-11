@@ -1,1 +1,1 @@
-{ right side widgets, coming soon }
+@widget('search')
