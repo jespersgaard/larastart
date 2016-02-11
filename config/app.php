@@ -173,7 +173,8 @@ return [
         Yangqi\Htmldom\HtmldomServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
-        Webpatser\Countries\CountriesServiceProvider::class
+        Webpatser\Countries\CountriesServiceProvider::class,
+        Arrilot\Widgets\ServiceProvider::class,
     ],
 
     /*
@@ -236,6 +237,8 @@ return [
         'Flash' => Laracasts\Flash\Flash::class,
         'Gravatar' => Thomaswelton\LaravelGravatar\Facades\Gravatar::class,
         'Countries' => Webpatser\Countries\CountriesFacade::class,
+        'Widget'       => Arrilot\Widgets\Facade::class,
+        'AsyncWidget'  => Arrilot\Widgets\AsyncFacade::class,
     ],
 
 ];

@@ -17,7 +17,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('external-stylesheets')
     @yield('inline-stylesheets')
-            <!-- /Stylesheets -->
+    <!-- /Stylesheets -->
 </head>
 <body id="app-layout">
 <!-- Back-to-Top -->
@@ -26,13 +26,31 @@
 
 <!-- Navigation -->
 @include('partials.navigation')
-        <!-- /Navigation -->
+<!-- /Navigation -->
 
 <!-- Content -->
 <div class="container">
-    @include('flash::message')
+    <div class="row">
+        <!-- Left side widgets -->
+        <div class="col-md-2">
+            @include('partials.left')
+        </div>
+        <!-- /Left side widgets -->
 
-    @yield('content')
+        <!-- Content -->
+        <div class="col-md-8">
+            @include('flash::message')
+
+            @yield('content')
+        </div>
+        <!-- /Content -->
+
+        <!-- Right Side Widgets -->
+        <div class="col-md-2">
+            @include('partials.right')
+        </div>
+        <!-- /Right Side Widgets -->
+    </div>
 </div>
 <!-- /Content -->
 
@@ -45,7 +63,7 @@
 </script>
 @yield('external-javascript')
 @yield('inline-javascript')
-        <!-- /JavaScripts -->
+<!-- /JavaScripts -->
 
 <!-- User Report -->
 <script type="text/javascript">

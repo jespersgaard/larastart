@@ -16,6 +16,7 @@ Once you have installted Larastart and run all migrations you will need to add `
 - Change Password.
 
 ## Packages
+- [arrilot/laravel-widgets](https://github.com/arrilot/laravel-widgets)
 - [barryvdh/laravel-debugbar](http://github.com/barryvdh/laravel-debugbar)
 - [barryvdh/laravel-dompdf](http://github.com/barryvdh/laravel-dompdf)
 - [barryvdh/laravel-ide-helper](http://github.com/barryvdh/laravel-ide-helper)

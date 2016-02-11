@@ -46,7 +46,7 @@ class ProfileController extends Controller
     public function postEditSettings(Request $request)
     {
         $this->validate($request, [
-            'username' => 'required|min:6|unique:users,username,' . auth()->user()->id,
+            'username' => 'required|min:5|unique:users,username,' . auth()->user()->id,
             'email' => 'required|email|min:6|unique:users,email,' . auth()->user()->id
         ]);
 
@@ -64,7 +64,7 @@ class ProfileController extends Controller
      */
     public function getEditProfile()
     {
-        $countries = Countries::orderBy('name')->pluck('name','id');
+        $countries = Countries::orderBy('name')->pluck('name', 'id');
 
         return view('profile.edit', compact('countries'));
     }
