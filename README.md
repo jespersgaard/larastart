@@ -11,9 +11,11 @@ Once you have installted Larastart and run all migrations you will need to add `
 - reCaptcha on register & forgot password.
 - Static Page controller added. (with tutorial for those that don't have much experience)
 - User Interface updates jQuery, Bootstrap, Font Awesome added.
-- User Roles and Permissions added. (documentation coming soon)
-- Show & Edit Profile added.
-- Change Password.
+- User Roles and Permissions added. (documentation coming soon).
+- View/Edit Profile, Edit Settings added.
+- Widgets System implemented (left and right side only, for now).
+-- Navigation Widget Added. (hard coded, will develop admin panel later).
+-- Search Widget Added. (just a dummy).
 
 ## Packages
 - [arrilot/laravel-widgets](https://github.com/arrilot/laravel-widgets)
