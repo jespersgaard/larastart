@@ -51,11 +51,15 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
+                            @if(auth()->user()->hasRole('administrator'))
+                                <li><a href="{{ url('admin/dashboard') }}"><i class="fa fa-lock"></i> Admin CP</a></li>
+                                <li class="divider"></li>
+                            @endif
                             <li><a href="{{ url('dashboard') }}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
                             <li><a href="{{ url('profile/' . auth()->user()->username) }}"><i class="fa fa-user"></i>
                                     Your Profile</a></li>
                             <li class="divider"></li>
-                            <li><a href="{{ url('settings/edit-profile') }}"><i class="fa fa-user-md"></i> Edit Profile</a>
+                            <li><a href="{{ url('settings/edit-profile') }}"><i class="fa fa-edit"></i> Edit Profile</a>
                             </li>
                             <li><a href="{{ url('settings/edit-settings') }}"><i class="fa fa-cog"></i> Edit
                                     Settings</a></li>

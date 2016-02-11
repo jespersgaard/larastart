@@ -11,7 +11,7 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/dashboard', 'DashboardController@index');
 
     // Profile Controller
-    Route::get('profile/{username}', 'ProfileController@show');
+    Route::get('/profile/{username}', 'ProfileController@show');
 
     Route::get('/settings/edit-settings', 'ProfileController@getEditSettings');
     Route::post('/settings/edit-settings', 'ProfileController@postEditSettings');
@@ -24,10 +24,15 @@ Route::group(['middleware' => 'web'], function () {
 
     // Pages Controller
     Route::get('/about', 'PagesController@about');
-    Route::get('/how-to/create-a-static-page', 'PagesController@addPage');
 
-    // Testing purposes
-    Route::get('test', function () {
-
+    // Admin
+    Route::get('/admin/dashboard', function () {
+        return [
+            'Message' => 'Coming soon to a project near you.',
+            'Author' => 'Someone sexy.',
+            'Disclaimer' => 'He isn\'t really.',
+            '----------------------' => '--------------------',
+            'Did you notice' => 'All of the keys above spell mad ;)'
+        ];
     });
 });
